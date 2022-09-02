@@ -24,7 +24,7 @@ function plotData(data) {
     let dates7th = [];
     for (let i = 0; i < dates.length; i += 7) {
         let date = new Date(dates[i]);
-        dates7th.push(date.toLocaleString("nl-NL", { year: "numeric", month: "numeric", day: "numeric" }));
+        dates7th.push(date.toLocaleString("nl-NL", { year: "2-digit", month: "numeric", day: "numeric" }));
     }
 
     // every 7th case
