@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(93, 93, 93);
+    background: linear-gradient(130deg, rgb(62, 62, 62), rgb(215, 215, 215));
+    background-attachment: fixed;
 }
 
 #covid-all-world-cases {
@@ -15,13 +16,15 @@ h2 {
     color: white;
     text-align: center;
     padding-top: 1%;
+    font-family: 'Ubuntu', bold;
+    font-size: 30px;
 }
 
 #covid-pie {
     position: absolute;
     top: 100px;
-    width: 36%;
-    left: 32%;
+    width: 25%;
+    left: 37.5%;
     border: solid 2px;
     background-color: rgb(240, 240, 240);
 }
